@@ -12,3 +12,11 @@ $ docker run nopassword ls /app
 
 Step 2
 It's wise to ignore .git directories along with dependencies that are downloaded/built within the image such as node_modules. These are never used by the application running within the Docker Container and just add overhead to the build process.
+
+
+Step 3 - Optimised Build
+$ echo big-temp-file.img >> .dockerignore
+$ docker build -t no-large-file-contex
+This optimisation has a greater impact when ignoring large directories such as .git.
+
+
