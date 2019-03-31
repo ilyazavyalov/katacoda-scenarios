@@ -1,0 +1,8 @@
+Task1
+
+Description : Running applications vulnerable to security exploits can expose your system to hackers. This could result in downtime, data loss or important information disclosure that can have in-reversal impact on a company.
+
+In this scenario you'll see how easy it is for hackers to break into applications using curl commands. The scenario uses an older version of Elasticsearch which was vulnerable to a remote exploit and detailed in CVE-2015-1427.
+
+Given how easy it is for attackers to identify and exploit applications it's increasingly important to ensure that you have the correct container security in place.
+
